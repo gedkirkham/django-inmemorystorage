@@ -1,4 +1,4 @@
-import urlparse
+from urllib import parse as urlparse
 
 from django.conf import settings
 from django.core.files.storage import Storage
